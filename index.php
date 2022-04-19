@@ -1,6 +1,9 @@
 <?php 
     $paragraph = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, consequuntur tenetur! Dignissimos repellat iste deleniti sequi veritatis. Quo quas mollitia voluptates eos exercitationem, earum, possimus aut saepe harum sunt rem.';
-    
+    // $array = explode( ' ', $paragraph);
+    // var_dump($array);
+    $paragraph = str_replace('Lorem', '***', $paragraph);
+    $_GET['banned']
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +19,7 @@
         <?php echo $paragraph ?>
     </p>
     <span> 
-        The paragraph lenght is : <?php echo strlen($paragraph) ?>
+        The paragraph length is : <?php echo strlen($paragraph) ?>
     </span>
 </body>
 </html>
